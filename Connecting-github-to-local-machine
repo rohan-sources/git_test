@@ -10,3 +10,16 @@ You will get an output like:
   origin  git@github.com:USER-NAME/git_test.git (push)
 This means that the repo is connected to your local machine.
 
+Now, to start working, you need to add your file to the staging area. 
+First, using the command 'git status' you can see that there are 'untracked files' meaning they are not in the stage nor committed rn.
+Do the changes needed in your file and save it.
+To add a file in the staging area, enter 'git add <file_name>'. Now, when you check status, you will see 'changes to be committed'.
+After making all the necessary changes, to commit the file, enter 'git commit -m '<Description of the commit>
+That makes the commit and you will see so in git status.
+
+Do the same for all your files.
+At the end, you can see all your commits using the command 'git log'.
+After doing all the necessary changes, enter command 'git push'. This saves your changes to github.
+
+Type git push. To be more specific, type git push origin main. 
+Since you are not dealing with another branch (other than main) or a different remote (as mentioned above), you can leave it as git push.
