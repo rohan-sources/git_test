@@ -1,0 +1,12 @@
+# Connecting a local file to git
+
+Open the terminal, either on the VSCode or windows powershell.
+Open the folder you wish to have your repo in. By folder, I mean cd into that folder. 
+Copy the SSH of the repo from github and type the command 'git clone <SSH_copied>' and press enter.
+Now cd into the folder that has been created inside the folder you were in.
+To check, enter the command 'git remote -v'.
+You will get an output like: 
+  origin  git@github.com:USER-NAME/git_test.git (fetch)
+  origin  git@github.com:USER-NAME/git_test.git (push)
+This means that the repo is connected to your local machine.
+
